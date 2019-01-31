@@ -9,8 +9,8 @@
       Title="InsertPetPage">
 
     <Grid>
-        <Frame JournalOwnership="OwnsJournal" Source="MainWindow.xaml" />
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Margin="0,0,13.334,58.666" />
+        <Frame JournalOwnership="OwnsJournal" Source="MainWindow.xaml" Margin="0,0,400,50" />
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Margin="0,0,413.334,108.666" />
         <TextBox x:Name ="PetNameTextbox" HorizontalAlignment="Left" Height="23" Margin="140,101,0,0" TextWrapping="Wrap" Text="Pet Name" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name ="PetTypeTextbox" HorizontalAlignment="Left" Height="23" Margin="140,131,0,0" TextWrapping="Wrap" Text="Pet Type" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name ="PetBreedTextbox" HorizontalAlignment="Left" Height="23" Margin="140,161,0,0" TextWrapping="Wrap" Text="Pet Breed" VerticalAlignment="Top" Width="120"/>
@@ -20,7 +20,7 @@
         <Button x:Name ="OwnerNextButton" Content="&gt;" HorizontalAlignment="Left" Margin="271,250,0,0" VerticalAlignment="Top" Width="24" Height="24"/>
         <Button x:Name ="OwnerPrevButton_Copy" Content="" HorizontalAlignment="Left" Margin="104,250,0,0" VerticalAlignment="Top" Width="24" Height="24"/>
         <Button x:Name ="InsertButton" Content="Insert" HorizontalAlignment="Left" Margin="140,290,0,0" VerticalAlignment="Top" Width="50" Height="24"/>
-        <Button x:Name ="BackButton" Content="Back" HorizontalAlignment="Left" Margin="210,290,0,0" VerticalAlignment="Top" Width="50" Height="24" Click="BackButton_Click"/>
+        <Button x:Name ="BackButton" Content="Back" HorizontalAlignment="Left" Margin="210,290,0,0" VerticalAlignment="Top" Width="50" Height="24"/>
 
     </Grid>
 </Page>

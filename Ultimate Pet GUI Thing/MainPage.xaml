@@ -1,4 +1,4 @@
-﻿<Page x:Class="Ultimate_Pet_GUI_Thing.StartPage"
+﻿<Page x:Class="Ultimate_Pet_GUI_Thing.MainPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,13 +6,15 @@
       xmlns:local="clr-namespace:Ultimate_Pet_GUI_Thing"
       mc:Ignorable="d" 
       d:DesignHeight="400" d:DesignWidth="400"
-      Title="StartPage">
+      Title="MainPage">
 
     <Grid>
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Margin="0,0,13.334,58.666" />
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Margin="0,0,420.001,137.999" />
+        <Frame x:Name="MainFrame_Copy" NavigationUIVisibility="Hidden" Margin="0,0,413.334,108.666" />
         <Button x:Name ="InsertPetButton" Content="Insert Pet" HorizontalAlignment="Left" Margin="145,100,0,0" VerticalAlignment="Top" Width="90" Click="InsertPetButton_Click"/>
         <Button x:Name ="InsertOwnerButton" Content="Insert Owner" HorizontalAlignment="Left" Margin="145,150,0,0" VerticalAlignment="Top" Width="90"/>
         <Button x:Name ="ShowAllPetsButton" Content="Show All Pets" HorizontalAlignment="Left" Margin="145,200,0,0" VerticalAlignment="Top" Width="90"/>
         <Button x:Name ="FindOwnerByLastName" Content="Find Owner" HorizontalAlignment="Left" Margin="145,250,0,0" VerticalAlignment="Top" Width="90"/>
+
     </Grid>
 </Page>

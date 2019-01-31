@@ -20,15 +20,9 @@ namespace Ultimate_Pet_GUI_Thing
     /// </summary>
     public partial class InsertPetPage : Page
     {
-
         public InsertPetPage()
         {
             InitializeComponent();
-        }
-
-        private void BackButton_Click(object sender, RoutedEventArgs e)
-        {
-            //MainFrame.GoBack();
         }
     }
 }

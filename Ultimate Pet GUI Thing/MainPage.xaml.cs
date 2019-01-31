@@ -15,14 +15,22 @@ using System.Windows.Shapes;
 
 namespace Ultimate_Pet_GUI_Thing
 {
-    public partial class MainWindow : Window
+    /// <summary>
+    /// Interaction logic for MainPage.xaml
+    /// </summary>
+    public partial class MainPage : Page
     {
         Controller controller;
-        public MainWindow()
+        public MainPage(Controller controller)
         {
+            this.controller = controller;
             InitializeComponent();
-            controller = new Controller(this);
-            controller.OpenMainWindow();
+            //this.controller = controller;
+        }
+
+        private void InsertPetButton_Click(object sender, RoutedEventArgs e)
+        {
+            controller.OpenIPP();
         }
     }
 }

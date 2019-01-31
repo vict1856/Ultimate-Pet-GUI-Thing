@@ -6,8 +6,6 @@
         xmlns:local="clr-namespace:System.Windows.Controls;assembly=PresentationFramework"
         mc:Ignorable="d"
         Title="MainWindow" Height="400" Width="400">
-    <Grid>
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Margin="0,0,13.334,58.666" />
-    </Grid>
+    <Grid/>
 
 </Window>
